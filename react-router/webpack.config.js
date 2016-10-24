@@ -1,7 +1,6 @@
 var path = require('path');
 
 module.exports = {
-	//path.resolve  __dirname==webpack-demos
 	entry: path.resolve(__dirname, 'src/index.js'),
 	output: {
 		path: path.resolve(__dirname, 'build'),
